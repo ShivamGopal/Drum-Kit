@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Drum Kit</title>
+</head>
+<body>
+  <h1 id="heading">Welcome Drummers</h1>
+  <hr color="#000">
+  <div id="center">
+    <ul class="box">
+      <li data-key="a">A<br> <span class="small">CLAP</span></li>
+      <li data-key="s"> S<br><span class="small">HIHAT</span></li>
+      <li data-key="d">D<br><span class="small">KICK</span></li>
+      <li data-key="f">F<br><span class="small">OPENHAT</span></li>
+      <li data-key="g">G<br><span class="small">BOOM</span></li>
+      <li data-key="h">H<br><span class="small">RIDE</span></li>
+      <li data-key="j">J<br><span class="small">SNARE</span></li>
+      <li data-key="k">K<br><span class="small">TOM</span></li>
+      <li data-key="l">L<br><span class="small">TINK</span></li>
+    </ul>
+  </div>
+  <div>
+    <audio data-key="a" src="Audio/Clap.wav"></audio>
+    <audio data-key="s" src="Audio/Hihat.wav"></audio>
+    <audio data-key="d" src="Audio/Kick.wav"></audio>
+    <audio data-key="f" src="Audio/Openhat.wav"></audio>
+    <audio data-key="g" src="Audio/Boom.wav"></audio>
+    <audio data-key="h" src="Audio/Ride.wav"></audio>
+    <audio data-key="j" src="Audio/Snare.wav"></audio>
+    <audio data-key="k" src="Audio/Tom.wav"></audio>
+    <audio data-key="l" src="Audio/Tink.wav"></audio>
+  </div>
+  <script src='main.js'></script>
+</body>
+</html>
